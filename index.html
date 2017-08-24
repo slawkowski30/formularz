@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>formularz</title>
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+    <form method="POST" action="http://formspree.io/spidister@gmail.com">
+
+        <label>Imię</label><br />
+        <input type="text" name="imie" placeholder="..."> <br />
+
+        <label>Nazwisko</label><br />
+        <input type="text" name="nazwisko" placeholder="..."> <br />
+
+        <label>Adres e-mail</label><br />
+        <input type="email" name="Twój e-mail" placeholder="@"> <br />
+
+        <label>Numer telefonu</label><br />
+        <input type="tel" name="usrtel"> <br />
+
+
+        <label>Miasto</label><br />
+        <input type="text" name="miasto" placeholder="Wybierz miasto" list="miasta" /> <br />
+        <datalist id="miasta">
+		<option value="Warszawa" ></option>
+	    <option value="Kraków" ></option>
+	    <option value="Gdańsk" ></option>
+        </datalist>
+
+
+        <label>Wiadomość</label><br />
+        <textarea name="message" placeholder="twoja wiadomosc"></textarea> <br />
+
+        <label>Płeć</label> <br/>
+        <input type="radio" name="gender" value="male" checked> Kobieta<br/>
+        <input type="radio" name="gender" value="male" checked> Mężczyzna<br/>
+        <br/>
+
+        <input type="checkbox" name="vehicle1" value="Bike">Zgoda na dane osobowe
+
+
+
+
+        <button type="submit">Wyslij</button>
+
+  <br><br>
+ </form>
+
+</body>
+
+</html>
